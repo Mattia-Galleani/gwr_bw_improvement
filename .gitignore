@@ -1,0 +1,18 @@
+# R/RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# targets cache
+_targets/
+
+# Intermediate outputs
+*.rds
+*.rda
+data/raw/*.csv
+data/*.gpkg      # if data is large/sensitive
+
+docs/
+
+scrap/
